@@ -1,0 +1,76 @@
+
+.one_film_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    color: #d2d2d2;
+}
+
+.one_film_desc {
+    display: flex;
+}
+
+.one_film_desc_m_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding: 10px 0px;
+}
+
+.one_film_desc_m_items_cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.one_film_desc_m_item_sec {
+    display: flex;
+    margin: 0px 0px 0px 10px;
+}
+
+.one_film_desc_m_item {
+    display: flex;
+}
+
+.one_film_info_cont {
+    margin: 0px 26px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.one_film_info_title_cont {
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.one_film_info_genres_cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    .one_film_info_genres_item {
+        background-color: #4c4a4a;
+        padding: 8px 18px;
+        margin-left: 5px;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
+
+.one_film_info_desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.one_film_mcl_cont {
+    display: flex;
+    align-items: center;
+}
+.one_film_mc_cont {
+
+}

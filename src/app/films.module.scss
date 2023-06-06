@@ -1,0 +1,44 @@
+
+.main_wrapper {
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    .main_title_films {
+        margin-left: 50px;
+    }
+    .films_items_cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+        width: fit-content;
+        .film_item_link {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            color: #b9b9b9;
+            text-decoration: none;
+            max-width: 170px;
+            margin: 5px;
+    
+            h2 {
+                font-size: 16px; 
+            }
+        }
+    
+    }
+
+
+}
+
+.search_result_title {
+    margin: 50px 0px 20px 50px;
+    font-size: 26px;
+    font-weight: 600;
+    span {
+        text-decoration: underline;
+        padding: 5px;
+    }
+}

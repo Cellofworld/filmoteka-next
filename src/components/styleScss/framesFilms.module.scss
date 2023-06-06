@@ -1,0 +1,19 @@
+
+.wraper {
+    margin-top: 50px;
+}
+
+.frame_title {
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+.frame_cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.frame_img {
+    margin: 8px;
+}

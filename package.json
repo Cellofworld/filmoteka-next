@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^13.4.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-player": "^2.12.0",
+    "react-redux": "^8.0.5",
+    "sass": "^1.62.1",
+    "scss": "^0.2.4"
   }
 }
