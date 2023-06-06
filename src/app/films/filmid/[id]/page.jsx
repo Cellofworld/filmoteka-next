@@ -5,7 +5,15 @@ import styles from '../../../oneFilm.module.scss'
 import FramesFilm from "@/components/framesFilm/FramesFilm";
 import VideoPlayer from "@/components/videoPlayer/VideoPlayer";
 
+export async function generateMetadata({params: {id}}) {
 
+  const oneFilmData = await getOneFilmData(id)
+
+  return {
+    title: `Смотреть ${oneFilmData.nameRu === null ? oneFilmData.nameOriginal : oneFilmData.nameRu} онлайн в хорошем качестве`,
+    description: `Смотреть ${oneFilmData.nameRu === null ? oneFilmData.nameOriginal : oneFilmData.nameRu} онлайн в хорошем качестве`,
+  };
+}
 
 
 export default async function film({params: {id}}) {

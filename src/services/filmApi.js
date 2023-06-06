@@ -11,7 +11,7 @@ export async function getDataFilm({type, page}) {
          'Content-Type': 'application/json',
      },
      next: {
-       revalidate: 60,
+       revalidate: 3600,
        }
      }
     )
@@ -29,7 +29,7 @@ export async function getDataFilm({type, page}) {
          'Content-Type': 'application/json',
      },
      next: {
-       revalidate: 60,
+       revalidate: 3600,
        }
      }
     )
@@ -46,7 +46,7 @@ export async function getDataFilm({type, page}) {
        'Content-Type': 'application/json',
    },
    next: {
-     revalidate: 60,
+     revalidate: 3600,
      }
    }
   )
@@ -63,7 +63,7 @@ export async function getSearchFilm(search) {
        'Content-Type': 'application/json',
    },
    next: {
-     revalidate: 60,
+     revalidate: 3600,
      }
    }
   )
@@ -80,7 +80,7 @@ export async function getOneFilmData(id) {
        'Content-Type': 'application/json',
    },
    next: {
-     revalidate: 60,
+     revalidate: 3600,
      }
    }
   )
@@ -97,7 +97,7 @@ export async function getFilmFrames(id) {
        'Content-Type': 'application/json',
    },
    next: {
-     revalidate: 60,
+     revalidate: 3600,
      }
    }
   )

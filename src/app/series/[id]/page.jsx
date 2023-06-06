@@ -4,6 +4,16 @@ import { getOneFilmData } from "@/services/filmApi"
 import Image from "next/image"
 import styles from '../../oneFilm.module.scss'
 
+export async function generateMetadata({params: {id}}) {
+
+    const oneFilmData = await getOneFilmData(id)
+
+    return {
+      title: `Смотреть ${oneFilmData.nameRu === null ? oneFilmData.nameOriginal : oneFilmData.nameRu} онлайн в хорошем качестве`,
+      description: `Смотреть ${oneFilmData.nameRu === null ? oneFilmData.nameOriginal : oneFilmData.nameRu} онлайн в хорошем качестве`,
+    };
+  }
+
 
 export default async function SeriesOne({params: {id}}) {
     
