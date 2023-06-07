@@ -8,7 +8,7 @@ import styles from './styleScss/navigation.module.scss'
 function TheHeader() {
 
   return (
-    <header className={styles.navigation_cont }>
+    <header className={styles.navigation_cont}>
       <Logo />
       <Navigation navLinks={navItems} />
       <SearchBar />

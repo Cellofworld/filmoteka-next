@@ -5,7 +5,6 @@ import Link from "next/link";
 import styles from './films.module.scss'
 import Pagination from "@/components/pagination/Pagination";
 
-
 export default async function Films() {
 
   const sendData = {
@@ -14,8 +13,6 @@ export default async function Films() {
 }
 
   const {total, items} = await getDataFilm(sendData)
-
-  console.log(total)
 
   return <div className={styles.main_wrapper}>
 

@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Смотреть фильмы онлайн в хорошем качестве',
   description: 'Просмотр фильмов в хорошем качестве',
   verification: {
-    yandex: '9767288bdb7882e1'
+    yandex: '1347ec9aae447034'
   }
 }
 
